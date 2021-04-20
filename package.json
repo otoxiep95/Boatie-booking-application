@@ -1,0 +1,22 @@
+{
+  "name": "boatie",
+  "version": "1.0.0",
+  "description": "Boatie website",
+  "scripts": {
+    "sass": "node-sass public/styles/scss/primary.scss public/styles/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advename/boatie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/advename/boatie/issues"
+  },
+  "homepage": "https://github.com/advename/boatie#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.13.0"
+  }
+}

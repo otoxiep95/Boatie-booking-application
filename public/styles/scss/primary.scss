@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Primary SCSS file - imports and bundles all other together as one
+   ========================================================================== */
+
+//Import the main files
+@import "modules/css-reset";
+@import "modules/colours";
+@import "modules/variables";
+@import "modules/global";
+//Import page specific files
+@import "modules/index";
+@import "modules/about";
+@import "modules/booking";
+@import "modules/events";
+@import "modules/error";
+@import "modules/dashboard-overview";
+@import "modules/dashboard-trips";
+@import "modules/dashboard-customers";
+@import "modules/dashboard-events";
+@import "modules/dashboard_employees";
+@import "modules/dashboard-settings";
+@import "modules/dashboard-login";
+@import "modules/privacy";
+@import "modules/terms";
+
+//Import media queries
+@import "modules/media-queries";
+//Import specials
+@import "modules/special";

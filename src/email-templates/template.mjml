@@ -1,0 +1,83 @@
+<mjml>
+  <mj-body background-color="#f8f6f3">
+    <mj-section padding-bottom="0px">
+      <mj-column width="100%">
+        <mj-image width="200px" alt="Boatie Logo" src="data:image/png;base64,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"></mj-image>
+      </mj-column>
+      <!-- Start the card box -->
+      <!-- Start header -->
+    </mj-section>
+    <mj-section padding-bottom="0px" background-color="white" border-radius="10px 10px 0px 0px">
+      <mj-column width="100%" padding="20px 0px">
+        <mj-text font-size="30px" color="#F45E43" font-family="Helvetica" align="center" font-weight="700" text-transform="uppercase">{{TITLE}}</mj-text>
+        <mj-text font-size="18px" color="#1c1c1c" font-family="Helvetica" align="center" font-weight="400" padding-top="40px">Here are your details for</mj-text>
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="center" font-weight="700" padding-top="5px">{{DATE}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- end header -->
+    <!-- Details -->
+    <mj-section width="100%" padding-top="0px" background-color="white">
+      <mj-column width="120px"  padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="200" padding="0px">Pickup:</mj-text>
+      </mj-column>
+      <mj-column padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="700" padding="0px">{{PICKUP}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- End Pickup -->
+    <mj-section width="100%" padding-top="0px" background-color="white" border-radius="0px 0px 10px 10px">
+      <mj-column width="120px"  padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="200" padding="0px">Dropoff:</mj-text>
+      </mj-column>
+      <mj-column padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="700" padding="0px">{{DROPOFF}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- End dropoff -->
+    <!-- START group size -->
+    <mj-section width="100%" padding-top="0px" background-color="white">
+      <mj-column width="120px" padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="200" padding="0px">Group size:</mj-text>
+      </mj-column>
+      <mj-column padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="700" padding="0px">{{GROUP_SIZE}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END GROUP SIZE -->
+    <mj-section width="100%" padding="00px 0px 45px 0px" background-color="white" border-radius="0px 0px 0px 0px">
+      
+      <mj-column width="120px"  padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="200" padding="0px">Price:</mj-text>
+      </mj-column>
+      <mj-column padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="700" padding="0px">DKK {{PRICE}}</mj-text>
+        <mj-text font-size="16px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="200" padding="5px 0px 0px 0px">(Pay in cash or mobile pay upon arrival)</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- End price -->
+    <!-- End Details -->
+    <mj-section background-color="#E5E5E5" padding="20px 0px 5px">
+      <mj-column padding="0px">
+        <mj-text font-size="15px" color="#424242" font-family="Arial" align="center" padding="0px" padding-bottom="10px">Please arrive 15min prior to the start of your journey.</mj-text>
+        <mj-text font-size="15px" color="#424242" font-family="Arial" align="center" padding="0px" padding-bottom="10px">Questions? Visit our <a href="https://boatie.dk">Q&A</a>, give us a call at <a href="tel:004560566609">+45 60 56 66 09</a></mj-text>
+        <mj-text font-size="15px" color="#424242" font-family="Arial" align="center" padding="0px">or write an e-mail to <a href="mailto:info@boatie.dk">info@boatie.dk</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#E5E5E5" border-radius="0px 0px 10px 10px" padding="0px 0px 20px">
+      <mj-column padding="0px">
+        <mj-social font-size="15px" icon-size="22px" mode="horizontal">
+          <mj-social-element alt="Facebook" padding="0px 18px" href="https://www.facebook.com/boatiecph" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUxMiA1MTIiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48Zz48cGF0aCBkPSJNMzA0LDM4M2MwLDQwLjItMC4xLDgwLjMsMC4xLDEyMC41YzAsNC40LTEuMiw1LjYtNS42LDUuNWMtMzQuMi0wLjItNjguMy0wLjItMTAyLjUsMCAgIGMtNC43LDAtNi4yLTEuMS02LjItNmMwLjItNzkuNywwLjEtMTU5LjMsMC4xLTIzOWMwLTgsMC45LTctNy4zLTcuMWMtMTQuNSwwLTI5LTAuMS00My41LDAuMWMtMy41LDAtNC41LTEuMS00LjUtNC42ICAgYzAuMS0yNS4zLDAuMS01MC43LDAtNzZjMC0zLjUsMS00LjYsNC41LTQuNWMxNS4yLDAuMiwzMC4zLTAuMSw0NS41LDAuMmM0LjEsMC4xLDUuNC0xLDUuNC01LjNjLTAuMi0yMS4zLDAtNDIuNy0wLjEtNjQgICBjLTAuMS0xNy43LDIuNi0zNC44LDExLjUtNTAuNGM5LjYtMTcsMjQtMjguNyw0MS44LTM2LjNjMTUtNi40LDMwLjgtOS40LDQ3LTEwLjNjMzIuMS0xLjgsNjQuMy0wLjMsOTYuNC0wLjkgICBjMy42LTAuMSw0LjUsMS4yLDQuNSw0LjZjLTAuMSwyNi4zLTAuMSw1Mi43LDAsNzljMCw0LTEuNSw0LjYtNSw0LjZjLTE4LjUtMC4xLTM3LTAuMS01NS41LTAuMWMtMTUuNCwwLTI2LjUsMTEuMS0yNi41LDI2LjMgICBjMCwxNS43LDAuMiwzMS4zLTAuMSw0N2MtMC4xLDQuNSwxLjQsNS42LDUuNyw1LjZjMjUuMy0wLjIsNTAuNywwLDc2LTAuMmM0LjIsMCw1LjYsMS4yLDUuMSw1LjRjLTEuNSwxMi45LTIuOCwyNS44LTQuMiwzOC43ICAgYy0xLjMsMTIuNC0zLjUsMjQuNy01LjUsMzdjLTAuNiwzLjUtMS43LDQuMy00LjksNC4zYy0yMS43LTAuMS00My4zLTAuMS02NSwwYy04LjUsMC03LjMtMS4xLTcuMyw3LjVDMzA0LDMwNCwzMDQsMzQzLjUsMzA0LDM4M3oiIGZpbGw9IiNBN0E3QTciLz48L2c+PC9zdmc+"
+            align="center"></mj-social-element>
+          <mj-social-element alt="Instagram" padding="0px 18px" href="https://www.instagram.com/boatiecph/" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUxMiA1MTIiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48Zz48cGF0aCBkPSJNNTA1LDI1N2MwLDM1LjgsMC4xLDcxLjYsMCwxMDcuNWMtMC4yLDUyLTI0LjQsOTAuNS02Ny42LDExNy43QzQxMi4xLDQ5OCwzODQsNTA1LDM1NC4yLDUwNSAgIGMtNjUuMiwwLTEzMC4zLDAuMy0xOTUuNS0wLjFjLTQ1LjMtMC4zLTg0LjMtMTYuMy0xMTUuMi00OS45Yy0xOS4xLTIwLjgtMzAuNS00NS4zLTMzLjgtNzMuNmMtMC43LTYtMC44LTExLjktMC44LTE3LjkgICBjMC03MS4zLTAuMS0xNDIuNiwwLTIxMy45QzkuMiw5Ny41LDMzLjQsNTksNzYuNiwzMS44QzEwMi4xLDE1LjksMTMwLjMsOSwxNjAuMyw5YzY1LDAsMTMwLTAuMywxOTUsMC4xICAgYzQ1LjUsMC4zLDg0LjYsMTYuNCwxMTUuNSw1MC4yYzE4LjksMjAuNywzMC4yLDQ1LjIsMzMuNCw3My4yYzEuMywxMSwwLjcsMjIsMC44LDMyLjlDNTA1LjEsMTk2LDUwNSwyMjYuNSw1MDUsMjU3eiBNNDYsMjU3ICAgYzAsMzYuNy0wLjEsNzMuMywwLDExMGMwLjEsMjUuMiw5LjMsNDYuOSwyNi41LDY0LjljMjMuMSwyNC4xLDUxLjksMzUuOCw4NSwzNmM2NS43LDAuNCwxMzEuMywwLjEsMTk3LDAuMSAgIGMyMS4yLDAsNDEuNC00LjYsNTkuOC0xNS4yYzM0LjQtMTkuNyw1My44LTQ4LjcsNTMuOC04OS4zYzAtNzIuMiwwLTE0NC4zLDAtMjE2LjVjMC0yNS05LjEtNDYuNi0yNi4yLTY0LjUgICBjLTIyLjktMjQuMi01MS44LTM2LjEtODQuOC0zNi4zQzI5MC43LDQ1LjcsMjI0LjQsNDYsMTU4LDQ2Yy0yMC43LDAtNDAuMyw0LjktNTguMywxNS4xQzY1LjQsODAuOSw0NS45LDEwOS45LDQ2LDE1MC41ICAgQzQ2LDE4Niw0NiwyMjEuNSw0NiwyNTd6IiBmaWxsPSIjQTdBN0E3Ii8+PHBhdGggZD0iTTI1Ny4zLDM2M2MtNjQuNiwwLTExNi40LTUxLjYtMTE2LjMtMTE2YzAuMS02Mi43LDUyLjYtMTE0LjEsMTE2LjctMTE0YzY0LjQsMCwxMTYuNCw1MS43LDExNi4zLDExNS41ICAgQzM3My45LDMxMS43LDMyMS42LDM2MywyNTcuMywzNjN6IE0yNTcuMywzMjZjNDMuOSwwLDc5LjctMzQuOSw3OS43LTc3LjhjMC00My4xLTM1LjUtNzguMi03OS4zLTc4LjJjLTQzLjksMC03OS43LDM0LjktNzkuNyw3Ny44ICAgQzE3OCwyOTAuOSwyMTMuNSwzMjYsMjU3LjMsMzI2eiIgZmlsbD0iI0E3QTdBNyIvPjxwYXRoIGQ9Ik0zNjMsMTIzLjZjMC0xNC4yLDEwLjktMjUuNiwyNC41LTI1LjZjMTMuNiwwLDI0LjUsMTEuNSwyNC41LDI1LjZjMCwxMy45LTEwLjksMjUuMy0yNC4zLDI1LjQgICBDMzc0LjEsMTQ5LjEsMzYzLDEzNy44LDM2MywxMjMuNnoiIGZpbGw9IiNBN0E3QTciLz48L2c+PC9zdmc+"
+            align="center"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- End the card box -->
+    <mj-section border-radius="0px 0px 10px 10px">
+      <mj-column padding="0px">
+        <mj-text font-size="14px" color="#878787" font-family="Arial" align="center" padding="0px" padding-bottom="10px">This is an auto generated e-mail, please do not reply directly to it.</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

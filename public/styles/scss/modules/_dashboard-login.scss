@@ -1,0 +1,60 @@
+.dashboard-login-container {
+  width: 100vw;
+  height: 100vh;
+
+  .dashboard-background-shape {
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+  }
+}
+
+#dashboard-login {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  .login-container {
+    padding: 60px;
+    background: white;
+    border-radius: 18px;
+    max-width: 1000px;
+    display: inline-block;
+    max-height: 700px;
+    box-shadow: $boxShadow;
+    position: relative;
+
+    img {
+      width: 100px;
+      padding-bottom: 30px;
+    }
+
+    button {
+      float: right;
+    }
+
+    .return-to-boatie {
+      position: absolute;
+      bottom: -30px;
+      left: 0px;
+      right: 0px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      a {
+        color: rgb(166, 166, 166);
+        font-size: 14px;
+      }
+    }
+  }
+  .error-message {
+    padding-bottom: 20px;
+  }
+  .confirmation-message {
+    color: #e55e25;
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+}

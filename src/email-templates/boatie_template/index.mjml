@@ -1,0 +1,84 @@
+<mjml>
+  <mj-body background-color="#f8f6f3">
+    <mj-section padding-bottom="0px">
+      <mj-column width="100%">
+        <mj-image width="200px" alt="Boatie Logo" src="https://cloud.boatie.dk/boatie-orange-logo.png"></mj-image>
+      </mj-column>
+      <!-- Start the card box -->
+      <!-- Start header -->
+    </mj-section>
+    <mj-section padding-bottom="0px" background-color="white" border-radius="10px 10px 0px 0px">
+      <mj-column width="100%" padding="20px 0px">
+        <mj-text font-size="30px" color="#F45E43" font-family="Helvetica" align="center" font-weight="700" text-transform="uppercase">{{TITLE}}</mj-text>
+        <mj-text font-size="18px" color="#1c1c1c" font-family="Helvetica" align="center" font-weight="400" padding-top="40px">Here are your details for</mj-text>
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="center" font-weight="700" padding-top="5px">{{DATE}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- end header -->
+    <!-- Details -->
+    <mj-section padding-top="0px" background-color="white">
+      <mj-column width="120px" padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="200" padding="0px">Pickup:</mj-text>
+      </mj-column>
+      <mj-column padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="700" padding="0px">{{PICKUP}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- End Pickup -->
+    <mj-section padding-top="0px" background-color="white" border-radius="0px 0px 10px 10px">
+      <mj-column width="120px" padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="200" padding="0px">Dropoff:</mj-text>
+      </mj-column>
+      <mj-column padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="700" padding="0px">{{DROPOFF}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- End dropoff -->
+    <!-- {{GROUP_START}} -->
+    <!-- START group size -->
+    <mj-section padding-top="0px" background-color="white">
+      <mj-column width="120px" padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="200" padding="0px">Group size:</mj-text>
+      </mj-column>
+      <mj-column padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="700" padding="0px">{{GROUP_SIZE}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- {{GROUP_END}} -->
+    <!-- END GROUP SIZE -->
+    <mj-section padding="00px 0px 45px 0px" background-color="white" border-radius="0px 0px 0px 0px">
+      <mj-column width="120px" padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="200" padding="0px">Price:</mj-text>
+      </mj-column>
+      <mj-column padding="0px">
+        <mj-text font-size="20px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="700" padding="0px">DKK {{PRICE}}</mj-text>
+        <mj-text font-size="16px" color="#1c1c1c" font-family="Helvetica" align="left" font-weight="200" padding="5px 0px 0px 0px">(Pay in cash or mobile pay upon arrival)</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- End price -->
+    <!-- End Details -->
+    <mj-section background-color="#E5E5E5" padding="20px 0px 5px">
+      <mj-column padding="0px">
+        <mj-text font-size="15px" color="#424242" font-family="Arial" align="center" padding="0px" padding-bottom="10px">Please arrive 15min prior to the start of your journey.</mj-text>
+        <mj-text font-size="15px" color="#424242" font-family="Arial" align="center" padding="0px" padding-bottom="10px">Questions? Visit our <a href="https://boatie.dk">Q&A</a>, give us a call at <a href="tel:004560566609">+45 60 56 66 09</a></mj-text>
+        <mj-text font-size="15px" color="#424242" font-family="Arial" align="center" padding="0px">or write an e-mail to <a href="mailto:info@boatie.dk">info@boatie.dk</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#E5E5E5" border-radius="0px 0px 10px 10px" padding="0px 0px 20px">
+      <mj-column padding="0px">
+        <mj-social font-size="15px" icon-size="22px" mode="horizontal">
+          <mj-social-element alt="Facebook" padding="0px 18px" href="https://www.facebook.com/boatiecph" src="https://cloud.boatie.dk/facebook-mail.svg"
+            align="center"></mj-social-element>
+          <mj-social-element alt="Instagram" padding="0px 18px" href="https://www.instagram.com/boatiecph/" src="https:/cloud.boatie.dk/instagram-mail.svg"
+            align="center"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- End the card box -->
+    <mj-section border-radius="0px 0px 10px 10px">
+      <mj-column padding="0px">
+        <mj-text font-size="14px" color="#878787" font-family="Arial" align="center" padding="0px" padding-bottom="10px">This is an auto generated e-mail, please do not reply directly to it.</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

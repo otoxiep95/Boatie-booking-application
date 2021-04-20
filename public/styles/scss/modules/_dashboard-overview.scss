@@ -1,0 +1,14 @@
+#dashboard-overview {
+  .g-calendar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    iframe {
+      width: 100%;
+      height: calc(100% - 50px);
+    }
+  }
+}

@@ -1,0 +1,247 @@
+#dashboard-customers {
+  .left {
+    padding-top: 12px;
+  }
+  .dashboard-header-handler {
+    margin-bottom: 50px;
+  }
+  .dashboard-list {
+    height: calc(100% - 100px);
+  }
+  .search-container {
+    display: inline-block;
+    position: relative;
+
+    #search-field {
+      width: 250px;
+      border: none;
+      font-size: 16px;
+      border-bottom: 1px solid #e6e6e6;
+      outline: none;
+      color: $textColor;
+      padding: 0px 0px 2px 0px;
+      background: none;
+
+      &::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #c3c3c3;
+      }
+    }
+
+    .close-search {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      bottom: 0px;
+      margin: auto 0px;
+      font-size: 14px;
+      color: $textColor;
+      line-height: 22px;
+      transition: opacity 0.3s;
+      opacity: 0;
+
+      cursor: pointer;
+      z-index: 300;
+    }
+
+    #search-field:focus ~ .close-search {
+      opacity: 1;
+    }
+  }
+}
+
+// Manage trip modal for more information and assigning a captain
+#manage-customers-modal {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  z-index: 500;
+  position: absolute;
+  left: 0px;
+  top: -110vh;
+  font-family: "Roboto", sans-serif;
+  opacity: 0;
+  transition: opacity 0.3s 0.1s, top 0.1s 0.4s;
+
+  .container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .shadow-background {
+      background: rgba(39, 39, 39, 0.8);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+    }
+
+    .modal-box {
+      position: relative;
+      z-index: 510;
+      width: calc(95vw - 100px);
+      height: auto;
+      padding: 30px;
+      background: white;
+      border-radius: $borderRadius;
+      max-width: 1000px;
+      display: inline-block;
+      max-height: 700px;
+
+      .modal-title {
+        color: $teal;
+        text-transform: uppercase;
+      }
+
+      .modal-content {
+        h5 {
+          margin: 30px 0px 20px 0px;
+          color: $teal;
+        }
+
+        .item {
+          padding-right: 50px;
+          padding-bottom: 20px;
+
+          .item-title {
+            font-size: 10px;
+            padding-bottom: 5px;
+          }
+        }
+
+        button#delete-customer {
+          color: $boatieRed;
+          background: transparent;
+          border: 1px solid $boatieRed;
+          transition: all 0.3s;
+          cursor: pointer;
+          margin-top: 50px;
+        }
+
+        button#delete-customer:hover {
+          color: white;
+          background: $boatieRed;
+          border: 1px solid $boatieRed;
+        }
+      }
+
+      .customer-details {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 1fr;
+        /* keeps all grid boxes same height, else remove */
+        grid-gap: 10px;
+        margin-top: 30px;
+      }
+
+      .close-button {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        width: 25px;
+        height: 25px;
+        opacity: 0.6;
+        transition: opacity 0.3s;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        &:after,
+        &:before {
+          position: absolute;
+          left: 15px;
+          content: " ";
+          height: 26px;
+          width: 1.5px;
+          background-color: #333;
+        }
+
+        &:before {
+          transform: rotate(45deg);
+        }
+
+        &:after {
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+
+  &.active {
+    opacity: 1;
+    top: 0vh;
+    transition: opacity 0.3s 0.1s, top 0.1s;
+  }
+}
+
+/* ==========================================================================
+   SECOND APPROACH - DESKTOP FIRST
+   ========================================================================== */
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+  #manage-customers-modal {
+    .container {
+      .modal-box {
+        padding: 30px 0px 30px 30px;
+
+        .modal-box-sub-wrapper {
+          position: relative;
+          height: calc(95vh - 20px - 60px);
+          //padding: 30px;
+          max-width: 1400px;
+          display: inline-block;
+          max-height: none;
+          width: 100%;
+        }
+
+        width: calc(95vw - 20px);
+        max-height: calc(95vh - 20px);
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+  .dashboard-header-handler {
+    .right {
+      display: none;
+    }
+  }
+
+  #manage-customers-modal {
+    .container {
+      .modal-box {
+        .modal-box-sub-wrapper {
+        }
+
+        .modal-title {
+          font-size: 25px;
+        }
+
+        .customer-details {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+}

@@ -1,0 +1,106 @@
+//Define index page specific styling
+
+/* html {
+  scroll-behavior: smooth;
+}
+ */
+
+ #terms {
+    .hero {
+        width: 100%;
+        padding-bottom: 45px;
+        .background-media {
+            height: calc(20vh);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            margin: 0 auto;
+            width: 100vw;
+            max-width: 100%;
+            background-color: $boatieOrange;
+            background-size: auto;
+            background-size: cover;
+        }
+        .content-container {
+            position: relative;
+            z-index: 10;
+            height: calc(60vh - 50px);
+            width: 100%;
+        }
+        .bottom-shape {
+            position: absolute;
+            top: 0;
+            z-index: 1;
+            img {
+                width: 100vw;
+                max-width: 100%;
+                //height: auto;
+            }
+        }
+    }
+    .highlights {
+        padding-top: 40vh;
+        justify-content: start;
+        display: block;
+        h2 {
+            margin-left: 50px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        p {
+            margin: 0px 50px;
+            display: block;
+            line-height: 20px;
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+    #terms {
+        .highlights {
+            padding-top: 25vh;
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+    #terms {
+        .highlights {
+            padding-top: 20vh;
+        }
+    }   
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+    #terms {
+        .highlights {
+            padding-top: 3vh;
+
+        h2 {
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            display: block;
+         }
+        p {
+            margin: 0px 20px;
+            display: block;
+            line-height: 20px;
+        }
+        }
+    }
+}
+
+@media (min-height: 700px) and (max-width: 1025px) {
+    #terms {
+        .highlights {
+            padding-top: 13vh;
+        }
+    }
+}

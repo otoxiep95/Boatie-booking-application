@@ -1,0 +1,1 @@
+[12:54:57 08-Dec-2019] [localhost/boatie/src/init.php] [57] : [ERROR] - Class 'Mail' not found ["Error: Class 'Mail' not found in D:\\KEA - Webdev\\webdev-live\\boatie\\public\\test.php:14\nStack trace:\n#0 {main}"]

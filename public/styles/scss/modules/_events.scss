@@ -1,0 +1,445 @@
+//Define index page specific styling
+
+/* html {
+  scroll-behavior: smooth;
+}
+ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+#events {
+  //write everything that applies to the events page inside here
+  .hero {
+    width: 100%;
+    padding-bottom: 45px;
+
+    .background-media {
+      height: calc(20vh);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      margin: 0 auto;
+      width: 100vw;
+      max-width: 100%;
+      background-color: $boatieOrange;
+      background-size: auto;
+      background-size: cover;
+    }
+
+    .content-container {
+      position: relative;
+      z-index: 10;
+      height: calc(60vh - 50px);
+      width: 100%;
+    }
+
+    .first-container {
+      height: calc(35vh - 50px);
+    }
+
+    .bottom-shape {
+      position: absolute;
+      top: 0;
+      z-index: 1;
+
+      img {
+        width: 100vw;
+        max-width: 100%;
+        //height: auto;
+      }
+    }
+  }
+
+  .highlights {
+    padding-top: 280px;
+
+    .menubar {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      left: 5%;
+      top: 10%;
+      height: 100%;
+      width: 100px;
+      max-width: 100%;
+      -webkit-transition: all 0.4s ease;
+      -moz-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+      transition: all 0.4s ease;
+      -webkit-transition: all 0.4s ease;
+      -moz-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+      transition: all 0.4s ease;
+
+      h5 {
+        color: $boatieOrange;
+        padding-bottom: 8px;
+      }
+
+      li {
+        a:hover {
+          -webkit-transition: 0.5s all ease-out;
+          -moz-transition: 0.5s all ease-out;
+          transition: 0.5s all ease-out;
+          font-weight: bold;
+        }
+
+        padding-bottom: 10px;
+
+        a {
+          color: gray;
+        }
+
+        &.active{
+          a { 
+            -webkit-transition: 0.5s all ease-out;
+            -moz-transition: 0.5s all ease-out;
+            transition: 0.5s all ease-out;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .content-container {
+      position: relative;
+      z-index: 10;
+      //height: calc(100vh - 50px);
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 15fr;
+
+      //grid-gap: 20px;
+      .right-container {
+        h3 {
+          color: $teal;
+          margin: 20px 0 20px 0;
+        }
+
+        .first_h3 {
+          margin: 0 0 20px 0;
+        }
+
+        .event_box {
+          background-color: white;
+          border-radius: 7px;
+          box-shadow: $boxShadow;
+          margin-bottom: 30px;
+          min-height: 230px;
+          display: grid;
+          grid-template-columns: 3fr 5fr 2fr;
+          cursor: pointer;
+
+          .event_img {
+            background: url("../assets/images/boatie-frontpage-hero-bg.jpg")
+              no-repeat center center;
+            background-color: rgba(229, 94, 37, 0.5) !important;
+            background-blend-mode: screen;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 7px 0px 0px 7px;
+          }
+
+          .event_info {
+            .event_info_text {
+              max-height: 90px;
+              transition: all 0.2s ease-out;
+              line-height: 23px;
+              overflow: hidden;
+              padding: 0 0 0 20px;
+            }
+
+            .expand_info {
+              cursor: pointer;
+              text-align: center;
+              margin: 0 auto;
+              margin-bottom: 25px;
+              transition: transform 0.3s;
+              margin-top: 10px;
+              width: 12px;
+              height: 12px;
+              border-top: 2px solid #656565;
+              border-right: 2px solid #656565;
+              transform: rotate(135deg);
+              justify-self: center;
+              align-self: center;
+            }
+
+            h4 {
+              padding: 25px 0px 0px 20px;
+              color: $boatieOrange;
+              font-weight: bold;
+              margin: 0;
+            }
+
+            h5 {
+              color: $boatieOrange;
+              padding: 1px 0px 15px 21px;
+              font-size: 14px;
+            }
+
+            p {
+              //font-size: 14px;
+              padding: 0px 5px 20px 20px;
+            }
+          }
+
+          .event_book {
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+
+            .event_book_info {
+              margin-bottom: 30px;
+              margin-right: 10px;
+
+              h5 {
+                color: $boatieOrange;
+                padding: 0px 0px 3px 0px;
+                text-align: end;
+                font-size: 14px;
+              }
+
+              .price_book {
+                padding: 0 0 20px 0;
+                text-align: end;
+              }
+
+              a {
+                text-align: center;
+                //margin-left: 10px;
+                //margin-bottom: 100px;
+                padding: 7px 50px;
+              }
+            }
+          }
+
+          &.open {
+            .event_info {
+              .expand_info {
+                transform: rotate(-45deg);
+              }
+
+              .event_info_text {
+                max-height: 300px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {
+  #events {
+    .highlights {
+      padding-top: 200px;
+
+      .content-container {
+        .right-container {
+          .event_box {
+            //BOX STUFF
+            .event_book {
+              .event_book_info {
+                a {
+                  padding: 7px 40px;
+                }
+              }
+            }
+
+            //BOX STUFF END
+          }
+        }
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+  #events {
+    .highlights {
+      padding-top: 150px;
+
+      .content-container {
+        .right-container {
+          .event_box {
+            //BOX STUFF
+            .event_info {
+              .event_info_text {
+                line-height: 18px;
+                font-size: 14px;
+              }
+            }
+
+            .event_book {
+              .event_book_info {
+                padding: 70% 20px 0 0;
+
+                h5 {
+                  text-align: end;
+                }
+
+                a {
+                  margin-left: 20px;
+                  padding: 7px 30px;
+                }
+              }
+            }
+
+            //BOX STUFF END
+          }
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+  #events {
+    .highlights {
+      padding-top: 100px;
+
+      .content-container {
+        .right-container {
+          margin: 0 5%;
+
+          .event_box {
+            grid-template-columns: none;
+            grid-template-rows: 5fr 5fr 2fr;
+
+            //BOX STUFF
+            .event_img {
+              max-height: 100%;
+              border-radius: 7px 7px 0px 0px;
+            }
+
+            .event_info {
+              overflow: visible;
+              margin: 20px;
+
+              .event_info_text {
+                max-height: 100%;
+                overflow: visible;
+                padding: 0;
+                line-height: 18px;
+                font-size: 14px;
+              }
+
+              .expand_info {
+                display: none;
+              }
+
+              h4 {
+                text-align: center;
+                margin-bottom: 5px;
+                margin-top: 10px;
+                padding: 0;
+              }
+
+              h5 {
+                text-align: center;
+                padding: 0;
+                margin-bottom: 10px;
+              }
+            }
+
+            .event_book {
+              .event_book_info {
+                padding: 0;
+
+                h5 {
+                  text-align: center;
+                  font-size: 16px;
+                }
+
+                .price_book {
+                  text-align: center;
+                }
+
+                a {
+                  margin-left: 0;
+                  padding: 7px 70px;
+                }
+              }
+            }
+
+            //BOX STUFF END
+          }
+        }
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+  #events {
+    .highlights {
+      padding-top: 0px;
+
+      .menubar {
+        display: none;
+      }
+
+      .content-container {
+        display: block;
+
+        .left-container {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 575px) {
+  #events {
+    .highlights {
+      padding-top: 0px;
+
+      .menubar {
+        display: none;
+      }
+
+      .content-container {
+        display: block;
+
+        .left-container {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+// 4K screens
+@media (min-width: 2000px) {
+  #events {
+    .highlights {
+      padding-top: 600px;
+    }
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 2000px) {
+  #events {
+    .highlights {
+      padding-top: 400px;
+    }
+  }
+}
